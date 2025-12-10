@@ -1,0 +1,8 @@
+ 
+.platform-section { background: #f8f9fa; } 
+.platform-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; } 
+.platform-card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); } 
+.platform-card h3 { color: #2c3e50; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #3498db; } 
+.platform-card ul { list-style: none; padding: 0; } 
+.platform-card li { padding: 10px 0; border-bottom: 1px solid #eee; } 
+.platform-card li:last-child { border-bottom: none; } 

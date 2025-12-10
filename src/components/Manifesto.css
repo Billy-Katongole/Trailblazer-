@@ -1,0 +1,272 @@
+ 
+.manifesto-section {
+  background: #f8f9fa;
+}
+
+.manifesto-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 60px;
+  align-items: start;
+}
+
+.manifesto-intro h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.manifesto-intro p {
+  line-height: 1.8;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.manifesto-download-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  border-top: 5px solid #3498db;
+}
+
+.download-icon {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+}
+
+.manifesto-download-card h4 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.manifesto-download-card p {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.file-info {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #888;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.manifesto-summary h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+.manifesto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.manifesto-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.manifesto-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card-number {
+  background: #3498db;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.manifesto-card h4 {
+  color: #2c3e50;
+  margin: 0;
+}
+
+.manifesto-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.manifesto-card li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  color: #555;
+  position: relative;
+  padding-left: 25px;
+}
+
+.manifesto-card li:before {
+  content: "✓";
+  color: #27ae60;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.manifesto-card li:last-child {
+  border-bottom: none;
+}
+
+.manifesto-timeline {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.manifesto-timeline h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #3498db;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-item:nth-child(odd) {
+  flex-direction: row;
+}
+
+.timeline-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.timeline-date {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  color: #2c3e50;
+  background: #e8f4fc;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.timeline-content {
+  flex: 2;
+  padding: 25px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.timeline-content h5 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.timeline-content p {
+  color: #666;
+  margin: 0;
+}
+
+.manifesto-footer {
+  text-align: center;
+  padding: 20px;
+  background: #e8f4fc;
+  border-radius: 10px;
+  color: #2c3e50;
+}
+
+.manifesto-footer p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 992px) {
+  .manifesto-header {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .timeline:before {
+    left: 30px;
+  }
+  
+  .timeline-item {
+    flex-direction: row !important;
+    margin-left: 60px;
+  }
+  
+  .timeline-date {
+    position: absolute;
+    left: -80px;
+    width: 120px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .manifesto-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .timeline-content,
+  .timeline-date {
+    padding: 15px;
+  }
+  
+  .manifesto-download-card,
+  .manifesto-timeline {
+    padding: 25px;
+  }
+}

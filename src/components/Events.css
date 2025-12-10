@@ -1,0 +1,8 @@
+ 
+.events-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; } 
+.event-card { display: flex; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); } 
+.event-date { background: #3498db; color: white; padding: 20px; display: flex; align-items: center; justify-content: center; font-weight: bold; min-width: 80px; } 
+.event-content { padding: 25px; flex: 1; } 
+.event-content h3 { margin-bottom: 10px; color: #2c3e50; } 
+.event-content p { color: #666; margin-bottom: 15px; } 
+.btn-small { padding: 8px 20px; font-size: 0.9rem; } 
