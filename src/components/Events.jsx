@@ -10,12 +10,12 @@ const Events = () => {
   ]; 
  
   return ( 
-    <section id="events" className="section events-section"> 
-      <div className="container"> 
-        <h2 className="section-title">Campaign Events</h2> 
-        <div className="events-grid"> 
+    <section id="events" className="section events-section" data-animate>
+      <div className="container">
+        <h2 className="section-title" data-animate data-animate-delay="1">Campaign Events</h2>
+        <div className="events-grid" data-animate data-animate-delay="2">
           {events.map((event, index) => (
-            <div key={index} className="event-card"> 
+            <div key={index} className="event-card" data-animate data-animate-delay="3"> 
               <div className="event-date">{event.date}</div> 
               <div className="event-content"> 
                 <h3>{event.title}</h3> 

@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Platform from './components/Platform';
 import Manifesto from './components/Manifesto';
+import Video from './components/Video';
 import Events from './components/Events';
 import Volunteer from './components/Volunteer';
 import Contact from './components/Contact';
@@ -22,6 +23,7 @@ function App() {
       <About />
       <Platform />
       <Manifesto />
+      <Video />
       <Events />
       <Volunteer />
       <Contact />

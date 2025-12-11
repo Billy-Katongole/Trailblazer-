@@ -1,0 +1,52 @@
+/* Simple reveal animations and utility classes */
+:root{
+  --reveal-duration: 700ms;
+  --reveal-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Hidden before reveal */
+.reveal-hidden{
+  opacity: 0;
+  transform: translateY(18px) scale(0.996);
+  transition: opacity var(--reveal-duration) var(--reveal-ease),
+              transform var(--reveal-duration) var(--reveal-ease);
+  will-change: opacity, transform;
+}
+
+/* Revealed state */
+.reveal-visible{
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Utility for delays (0-5) */
+.reveal-delay-0{ transition-delay: 0ms; }
+.reveal-delay-1{ transition-delay: 75ms; }
+.reveal-delay-2{ transition-delay: 150ms; }
+.reveal-delay-3{ transition-delay: 225ms; }
+.reveal-delay-4{ transition-delay: 300ms; }
+.reveal-delay-5{ transition-delay: 375ms; }
+
+/* Fade-in from left/right variants */
+.reveal-left.reveal-hidden{ transform: translateX(-22px) scale(0.996); }
+.reveal-right.reveal-hidden{ transform: translateX(22px) scale(0.996); }
+
+/* Subtle float animation for hero image */
+@keyframes floaty {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+.hero-img.animate-float{
+  animation: floaty 6s ease-in-out infinite;
+}
+
+/* Focus states preserved */
+.reveal-visible:focus{ outline: 3px solid rgba(21, 128, 61, 0.12); }
+
+/* Reduce motion preference */
+@media (prefers-reduced-motion: reduce){
+  .reveal-hidden{ transition: none; transform: none; }
+  .hero-img.animate-float{ animation: none; }
+}

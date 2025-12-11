@@ -46,11 +46,11 @@ const Manifesto = () => {
   ];
 
   return (
-    <section id="manifesto" className="section manifesto-section">
+    <section id="manifesto" className="section manifesto-section" data-animate>
       <div className="container">
-        <h2 className="section-title">My Manifesto</h2>
-        <div className="manifesto-header">
-          <div className="manifesto-intro">
+        <h2 className="section-title" data-animate data-animate-delay="1">My Manifesto</h2>
+        <div className="manifesto-header" data-animate data-animate-delay="2">
+          <div className="manifesto-intro" data-animate data-animate-delay="3">
             <h3>Comprehensive Plan for Student Success</h3>
             <p>
               This detailed manifesto outlines my vision, policies, and actionable plans 
@@ -86,12 +86,12 @@ const Manifesto = () => {
           </div>
         </div>
 
-        <div className="manifesto-summary">
-          <h3>Key Policy Summary</h3>
+          <div className="manifesto-summary" data-animate data-animate-delay="4">
+          <h3 data-animate data-animate-delay="5">Key Policy Summary</h3>
           
           <div className="manifesto-grid">
             {manifestoPoints.map((section, index) => (
-              <div key={index} className="manifesto-card">
+              <div key={index} className="manifesto-card" data-animate data-animate-delay="6">
                 <div className="card-header">
                   <div className="card-number">{index + 1}</div>
                   <h4>{section.title}</h4>

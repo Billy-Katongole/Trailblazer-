@@ -17,7 +17,8 @@ const Navbar = ({ activeSection, setActiveSection }) => {
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "platform", label: "Platform" },
-  { id: "manifesto", label: "Manifesto" },  // ADD THIS LINE
+  { id: "manifesto", label: "Manifesto" },
+  { id: "video", label: "Video" },
   { id: "events", label: "Events" },
   { id: "volunteer", label: "Volunteer" },
   { id: "contact", label: "Contact" },
@@ -34,14 +35,14 @@ const Navbar = ({ activeSection, setActiveSection }) => {
   };
 
   return (
-    <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
+    <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`} data-animate data-animate-once>
       <div className="container">
         <div className="nav-content">
-          <div className="logo">
-            <h2>Campaign<span>2024</span></h2>
+          <div className="logo" data-animate data-animate-delay="1">
+            <h2>Campaign<span>2026</span></h2>
           </div>
           
-          <div className="nav-links">
+          <div className="nav-links" data-animate data-animate-delay="2">
             {navItems.map((item) => (
               <a
                 key={item.id}

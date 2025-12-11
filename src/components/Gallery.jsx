@@ -26,12 +26,12 @@ const Gallery = () => {
     : galleryItems.filter(item => item.category === selectedCategory);
 
   return (
-    <section id="gallery" className="section gallery-section">
+    <section id="gallery" className="section gallery-section" data-animate>
       <div className="container">
-        <h2 className="section-title">Campaign Gallery</h2>
-        <p className="section-subtitle">Moments from our campaign journey</p>
+        <h2 className="section-title" data-animate data-animate-delay="1">Campaign Gallery</h2>
+        <p className="section-subtitle" data-animate data-animate-delay="2">Moments from our campaign journey</p>
         
-        <div className="gallery-controls">
+        <div className="gallery-controls" data-animate data-animate-delay="3">
           {categories.map(category => (
             <button
               key={category.id}
@@ -43,9 +43,9 @@ const Gallery = () => {
           ))}
         </div>
         
-        <div className="gallery-grid">
+        <div className="gallery-grid" data-animate data-animate-delay="4">
           {filteredItems.map(item => (
-            <div key={item.id} className="gallery-item">
+            <div key={item.id} className="gallery-item" data-animate data-animate-delay="5">
               <div className="gallery-image">
                 <div className="image-placeholder">
                   <span className="image-label">📸 Image Placeholder</span>

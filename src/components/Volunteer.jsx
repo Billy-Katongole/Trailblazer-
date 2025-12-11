@@ -11,11 +11,11 @@ const Volunteer = () => {
   };
 
   return (
-    <section id="volunteer" className="section volunteer-section">
+    <section id="volunteer" className="section volunteer-section" data-animate>
       <div className="container">
-        <h2 className="section-title">Get Involved</h2>
-        <div className="volunteer-content">
-          <div className="volunteer-info">
+        <h2 className="section-title" data-animate data-animate-delay="1">Get Involved</h2>
+        <div className="volunteer-content" data-animate data-animate-delay="2">
+          <div className="volunteer-info" data-animate data-animate-delay="3">
             <h3>Join Our Team!</h3>
             <p>We need volunteers for:</p>
             <ul>
