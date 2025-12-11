@@ -1,9 +1,0 @@
-{
-  "short_name": "Campaign",
-  "name": "University Guild Election Campaign",
-  "icons": [],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
