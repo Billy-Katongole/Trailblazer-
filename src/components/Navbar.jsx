@@ -94,7 +94,7 @@ const Navbar = ({ activeSection, setActiveSection }) => {
             ))}
           </div>
 
-          {/* Mobile Menu Toggle Button */}
+          {/* Mobile Menu Toggle Button - This becomes X when open */}
           <button 
             className={`mobile-menu-toggle ${isMobileMenuOpen ? 'open' : ''}`}
             onClick={toggleMobileMenu}
@@ -108,19 +108,11 @@ const Navbar = ({ activeSection, setActiveSection }) => {
         </div>
       </div>
 
-      {/* Mobile Navigation Menu */}
+      {/* Mobile Navigation Menu - WITHOUT extra close button */}
       <div className={`mobile-nav ${isMobileMenuOpen ? 'active' : ''}`}>
         <div className="mobile-nav-content">
-          <div className="mobile-nav-header">
-            <h3>Campaign Menu</h3>
-            <button 
-              className="mobile-nav-close"
-              onClick={closeMobileMenu}
-              aria-label="Close menu"
-            >
-              ✕
-            </button>
-          </div>
+          {/* SIMPLIFIED - No extra close button in header */}
+          <h3 className="mobile-nav-title">Campaign Menu</h3>
           
           <div className="mobile-nav-items">
             {navItems.map((item) => (
@@ -145,7 +137,7 @@ const Navbar = ({ activeSection, setActiveSection }) => {
         </div>
       </div>
       
-      {/* Overlay */}
+      {/* Overlay - Clicking this also closes the menu */}
       <div 
         className={`mobile-overlay ${isMobileMenuOpen ? 'active' : ''}`} 
         onClick={closeMobileMenu}
