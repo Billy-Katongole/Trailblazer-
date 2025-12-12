@@ -242,16 +242,21 @@
     left: 30px;
   }
   
+  /* On medium / small screens make timeline items stack vertically so
+     the date label sits above the content rather than overlapping it. */
   .timeline-item {
-    flex-direction: row !important;
-    margin-left: 60px;
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 40px; /* space for the center line */
   }
   
   .timeline-date {
-    position: absolute;
-    left: -80px;
-    width: 120px;
-    margin: 0;
+    position: relative;
+    left: 0;
+    width: auto;
+    margin: 0 0 12px 0;
+    align-self: flex-start;
+    text-align: left;
   }
 }
 
