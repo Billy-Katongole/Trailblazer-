@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Trailblazer-/static/css/main.afb7978c.css",
-    "main.js": "/Trailblazer-/static/js/main.4f5813ba.js",
+    "main.css": "/Trailblazer-/static/css/main.540f3e33.css",
+    "main.js": "/Trailblazer-/static/js/main.d4b4ff49.js",
     "index.html": "/Trailblazer-/index.html",
-    "main.afb7978c.css.map": "/Trailblazer-/static/css/main.afb7978c.css.map",
-    "main.4f5813ba.js.map": "/Trailblazer-/static/js/main.4f5813ba.js.map"
+    "main.540f3e33.css.map": "/Trailblazer-/static/css/main.540f3e33.css.map",
+    "main.d4b4ff49.js.map": "/Trailblazer-/static/js/main.d4b4ff49.js.map"
   },
   "entrypoints": [
-    "static/css/main.afb7978c.css",
-    "static/js/main.4f5813ba.js"
+    "static/css/main.540f3e33.css",
+    "static/js/main.d4b4ff49.js"
   ]
 }
