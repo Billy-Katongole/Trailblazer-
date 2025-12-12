@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="section-title" data-animate data-animate-delay="1">About Me</h2>
         <div className="about-content" data-animate data-animate-delay="2">
           <div className="about-text"> 
-            <h3>Hello, I'm STUART</h3> 
+            <h3>Hello, I'm BILLY KATONGOLE ASIIMWE</h3> 
             <p> 
               I'm a passionate student leader running for Guild President to make 
               our university a better place for everyone. With experience in student 
