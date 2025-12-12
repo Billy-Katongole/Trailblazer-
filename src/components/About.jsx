@@ -18,7 +18,7 @@ const About = () => {
             <div className="about-details"> 
               <div className="detail-card" data-animate data-animate-delay="3"> 
                 <h4>?? Education</h4> 
-                <p>Computer Science Major</p> 
+                <p>Bachelors of Land Surveying and Geomatics</p> 
                 <p>Third Year Student</p> 
               </div> 
               <div className="detail-card" data-animate data-animate-delay="4"> 
