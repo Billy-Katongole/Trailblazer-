@@ -18,12 +18,17 @@ const Footer = () => {
           </div>
           <div className="footer-section" data-animate data-animate-delay="3">
             <h4>Vote</h4>
-            <p>May 1-3, 2024</p>
-            <p>Your voice matters!</p>
+            <p>May 1-3, 2026</p>
+            <p>#Your voice matters!</p>
+            <p>#If it is not me then who?? </p>
+            <p># If it’s not now then when??</p>
+            <p>*CHANGE MUST PREVAIL*</p>
+            <p>Billy Zoyeee,Katongole Zoyee,Trail Blazer Zoyee</p>
+
           </div>
         </div>
         <div className="footer-bottom">
-          <p>c 2026 Trailblazer Campaign. All rights reserved.</p>
+          <p>Copywrite 2026 Trailblazer Campaign. All rights reserved.</p>
         </div>
       </div>
     </footer>

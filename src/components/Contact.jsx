@@ -10,15 +10,15 @@ const Contact = () => {
           <div className="contact-info">
             <h3 data-animate data-animate-delay="3">Get in Touch</h3>
             <div className="contact-item"> 
-              <h4>?? Email</h4> 
-              <p>stuart@university.edu</p> 
+              <h4> Email</h4> 
+              <p>billy1katongole@gmail.com</p> 
             </div> 
             <div className="contact-item"> 
-              <h4>?? Phone</h4> 
-              <p>(123) 456-7890</p> 
+              <h4> Phone</h4> 
+              <p>(256) 777-632491</p> 
             </div> 
             <div className="contact-item"> 
-              <h4>?? Office</h4> 
+              <h4> Office</h4> 
               <p>Student Union Building</p> 
             </div> 
           </div> 
