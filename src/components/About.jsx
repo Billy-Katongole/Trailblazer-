@@ -12,7 +12,7 @@ const About = () => {
             <p> 
 A Ugandan with passion of making the world a better place for it starts with me and you!!!
 I’m a student of Ndejje University pursuing a Bachelor’s degree in Land Survey and Geomatics in my third year.I completed my primary level from Mbarara Municipal School, Mbarara High School (CHAAPA) for my secondary level (both O and A level) 
-I can proudly say it’s been quite a good journey, full of memories the world can never take of my memory and all sorts of experiences. Most of these being in the ‘kraal’, Mbarara High School where real men are groomed… 
+I can proudly say it’s been quite a good journey, full of memories the world can never take off my memory and all sorts of experiences. Most of these being in the ‘kraal’, Mbarara High School where real men are groomed… 
 Besides my education journey, I’m driven by passion and desire to make the world a better place. The world is filled with people with different interests, capabilities, skills, different mindsets, talents, dreams and I strongly believe that if we could combine all this the world would be a better place.. Reminds of the words of the former President of the United States, H.E Barrack Obama, “YES WE CAN”.  
 It's on this noble cause that I advocate for togetherness, inclusiveness, innovativeness and effectiveness, “The ultimate measure of a leader is not the titles they hold, but the lives they touch and inspire”
             </p> 

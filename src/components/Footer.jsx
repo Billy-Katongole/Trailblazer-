@@ -29,6 +29,7 @@ const Footer = () => {
         </div>
         <div className="footer-bottom">
           <p>Copywrite 2026 Trailblazer Campaign. All rights reserved.</p>
+          <p>Designed by StuWave</p>
         </div>
       </div>
     </footer>
